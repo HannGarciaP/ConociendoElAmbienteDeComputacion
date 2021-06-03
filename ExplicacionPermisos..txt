@@ -1,0 +1,22 @@
+Niveles y tipos de permisos para archivos
+
+Parámetro	Nivel	Descripción
+u	        dueño	dueño del archivo o directorio
+g	        grupo	grupo al que pertenece el archivo
+o	        otros	todos los demás usuarios que no son el dueño ni del grupo
+
+
+
+Permiso 	Identifica
+  r	       Permiso de lectura  .En archivos Puede listar, copiar o visualizarlo. 
+  w	       Permiso de escritura .En archivos significa que se puede modificar o borrar el contenido, incluso puede modificar los permisos.
+  x	      Permiso de ejecución .En archivos significa que se puede ejecutar el contenido. 
+ 
+
+
+
+Explicacion de permisos para carpetas
+
+Lectura (r): En Directorios pueden ver el contenido, se pueden listar a través del comando ls
+Escritura (w):  En Directorios significa que puede crear, eliminar archivos y directorios dentro de ese directorio.
+Ejecución (x): En Directorios significa que podemos entrar en la carpeta (comando cd).
